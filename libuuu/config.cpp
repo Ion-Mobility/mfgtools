@@ -74,6 +74,7 @@ Config::Config()
 	emplace_back(ConfigItem{"FBK:", nullptr, nullptr, 0x066F, 0x9BFF});
 	emplace_back(ConfigItem{"FB:", nullptr, nullptr,  0x0525, 0xA4A5});
 	emplace_back(ConfigItem{"FB:", nullptr, nullptr,  0x18D1, 0x0D02});
+	emplace_back(ConfigItem{"FB:", nullptr, nullptr,  0x18D1, 0x4E40}); /* i.MX8 ION Grinadia Target */
 	emplace_back(ConfigItem{"FB:", nullptr, nullptr,  BD_VID, 0x0001});
 }
 
